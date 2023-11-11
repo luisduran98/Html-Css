@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+
+            .flexbox{
+                background-color: lightblue;
+                display: flex;
+                flex-direction: row;
+                height: 50px;
+                margin-bottom: 30px;
+            }
+
+            .flexbox-dos{
+                background-color: lightblue;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 30px;
+                margin-bottom: 30px;
+            }
+
+            .flexbox-tres{
+                background-color: lightgoldenrodyellow;
+                border: 1px solid;
+                height: 100px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items:center;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="flexbox">
+
+            <div style="background-color: lightcoral; width: 150px;" >item 1</div>
+            <div style="background-color: lightgreen; flex: 1;">item 2</div>
+            <div style="background-color: lightgray; width: 300px;">item 3</div>
+
+        </div>
+
+        <hr/>
+
+        <div class="flexbox-dos">
+            <div style="background-color: lightcoral; width: 100px;" >item 1</div>
+            <div style="background-color: lightgreen; width: 100px;">item 2</div>
+            <div style="background-color: lightgray; width: 100px;">item 3</div>
+            <div style="background-color: lightsalmon; width: 100px;">item 4</div>
+        </div>
+
+        <hr/>
+
+        <div class="flexbox-tres">
+
+            <div style="background-color: lightblue; ">item 1</div>
+            <div style="background-color: lightgreen;  ;">item 2</div>
+
+        </div>
+
+    </body>
+</html>

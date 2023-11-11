@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            .todo{
+                display: inline-block;
+                vertical-align: top;
+                height: 305px;
+                width: 225px;
+                border: 1px solid ;
+                margin-left: 10px;
+                margin-right: 10px;
+
+            }
+
+            .texto{
+                line-height: 3px;
+                margin-left: 3px;
+            }
+            
+            img{
+                width: 224.5px;
+                height: 200px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+
+            .nombre{
+                font-size: 20px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+
+            .amigos{
+                color: rgb(145, 144, 144);
+                cursor: pointer;
+            }
+
+            .agregar{
+                background-color: rgb(8, 102, 255);
+                border: none;
+                color: white;
+                cursor: pointer;
+                padding-top: 8px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 8px;
+            }
+
+            .todo-dos{
+                display: inline-block;
+                border: 1px solid ;
+                border-radius: 10px;
+                border-color: grey;
+                padding-top: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 5px; 
+                box-shadow: 2px 3px 5px rgb(171, 168, 168);   
+            }
+
+            .img-dos{
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                vertical-align: middle;
+                margin-left: 15px;
+            }
+
+            .algo{
+                margin-left: 15px;
+                font-size: 20px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 80px;
+                padding-bottom: 10px; 
+            }
+
+            .Tweet{
+                background-color: rgb(29, 155, 240);
+                color: white;
+                border:none;
+                border-radius: 20px;
+                height: 40px;
+                cursor: pointer;
+                padding-left: 30px;
+                padding-right: 30px;
+                
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="todo">
+
+            <div>
+                <img class="imagen" src="/lesson 5/imagenes/gato1.jpg" alt="gato1">
+            </div>
+
+            <div class="texto">
+                <p class="nombre">Carlitos</p>
+                <p class="amigos">10 amigos en comun</p>
+                <button class="agregar" >Agregar</button>
+            </div>
+
+        </div>
+
+        <div class="todo">
+
+            <div>
+                <img class="imagen" src="/lesson 5/imagenes/cato3.jpg" alt="gato1">
+            </div>
+
+            <div class="texto">
+                <p class="nombre">Ramon</p>
+                <p class="amigos">5 amigos en comun</p>
+                <button class="agregar" >Agregar</button>
+            </div>
+
+        </div>
+
+        <div class="todo">
+
+            <div>
+                <img class="imagen" src="/lesson 5/imagenes/gato 2.jpg" alt="gato1">
+            </div>
+
+            <div class="texto">
+                <p class="nombre">Sebastian</p>
+                <p class="amigos">80 amigos en comun</p>
+                <button class="agregar" >Agregar</button>
+            </div>
+
+        </div>
+
+        <hr/>
+
+        <div class="todo-dos">
+            <img  class="img-dos" src="/lesson 5/imagenes/cato3.jpg"/>
+            <input class="algo" type="text" placeholder="comenta algo">
+            <button class="Tweet">Tweet</button>
+        </div>
+
+    </body>
+</html>
+
+
